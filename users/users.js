@@ -15,11 +15,14 @@ const getUser = async () => {
         btn.innerText = 'details';
         btn.style.display = 'block';
         block.appendChild(btn);
+        btn.classList.add('btn');
 
         btn.addEventListener('click', () => {
             location.href = `../user-details/user-details.html?userID=${user.id}`
         });
     }
+
+
 }
 
 void getUser();
