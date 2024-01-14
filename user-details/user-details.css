@@ -1,0 +1,65 @@
+#title {
+    text-align: center;
+}
+
+.contentBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    border: 1px solid black;
+}
+
+#content > div {
+    font-size: 18px;
+    margin: 4px 0;
+}
+
+#postBtn {
+    width: 90%;
+    height: 40px;
+    margin: 5px 0;
+    font-size: 18px;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#postsTitle {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+#postsTitle > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 19.8%;
+    border: 1px black solid;
+    box-sizing: border-box;
+    margin: 1px;
+    padding: 10px;
+}
+
+#postsTitle > div > button {
+    width: 70%;
+    height: 30px;
+    margin: 5px 0;
+    font-size: 18px;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#postsTitle > div > p {
+  text-align: center;
+}
+
+.remove {
+    display: none;
+    background-color: blue;
+}
