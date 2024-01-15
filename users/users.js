@@ -13,7 +13,6 @@ const getUser = async () => {
 
         const btn = document.createElement('button');
         btn.innerText = 'User details';
-        btn.style.display = 'block';
 
         block.appendChild(btn);
         btn.classList.add('btn');
