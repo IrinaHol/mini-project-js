@@ -8,11 +8,11 @@ const getUser = async () => {
     for (const user of users) {
         const block = document.createElement('div');
         block.classList.add('block');
-        block.innerHTML = `${user.id}) name - ${user.name}`;
+        block.innerHTML = `${user.id}) ${user.name}`;
         container.appendChild(block);
 
         const btn = document.createElement('button');
-        btn.innerText = 'details';
+        btn.innerText = 'User details';
         btn.style.display = 'block';
 
         block.appendChild(btn);
@@ -22,8 +22,6 @@ const getUser = async () => {
             location.href = `../user-details/user-details.html?userID=${user.id}`
         });
     }
-
-
 }
 
 void getUser();

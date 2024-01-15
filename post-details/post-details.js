@@ -16,7 +16,7 @@ const showComments = async () => {
 
     for (const comment of comments) {
         const commentDiv = document.createElement('p');
-        commentDiv.innerHTML = `Name: ${comment.name}; <br> Body: ${comment.body};`
+        commentDiv.innerHTML = ` id: ${comment.id} <br> postId: ${comment.postId} <br> email: ${comment.email} <br> name: ${comment.name}; <br> body: ${comment.body};`
         commentsContent.appendChild(commentDiv);
     }
 }
